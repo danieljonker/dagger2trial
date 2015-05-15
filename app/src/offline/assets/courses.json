@@ -1,0 +1,418 @@
+{
+  "courses": [
+    {
+      "instructors": [],
+      "subtitle": "Build a Search Engine & a Social Network",
+      "key": "cs101",
+      "image": "https://lh5.ggpht.com/ITepKi-2pz4Q6lrLfv6QDNViEGIfxyupzgQwx1YgS4L8m3MFITBKWDpaZb_VoAP-zV3bEEoIbFY7mauj8HM=s0#w=1724&h=1060",
+      "expected_learning": "You’ll learn the programming language Python, and you’ll explore foundational concepts in computer science. Most importantly, you’ll start thinking like a software engineer by solving interesting problems (how to build a web crawler or a social network) using computer programming. \ \ This course is a first step into the world of computer science, and whether you want to become a software engineer, or collaborate with software engineers, this course is for you. You’ll be prepared for intermediate-level computer science classes when you’ve mastered the concepts covered in this course.\ \ ###Build a Search Engine\ Throughout this course, you’ll build a search engine by learning about and producing key search engine components including a crawler, an index and a page rank algorithm. As you build these pieces, you’ll be learning about and practicing computer science skills that will ready you for intermediate level computer science courses. \ \ ###Build a Social Network\ At the end of the course we will give you a set of relationships (i.e. strings of phrases like “Dave likes Andy, Kathleen and Kristy”) and you will use your new computer science skills to organize these relationships into a social network. With your new social network, you can explore relationships and gain insight into how you fit into your own social networks.",
+      "featured": false,
+      "teaser_video": {
+        "youtube_url": "https://www.youtube.com/watch?v=Pm_WAWZNbdA"
+      },
+      "title": "Intro to Computer Science",
+      "required_knowledge": "There is no prior computer programming knowledge needed for this course. Beginners are welcome!",
+      "syllabus": "###Lesson 1: How to Get Started\ \ - Interview with Sergey Brin\ - Getting Started with Python\ - Processors\ - Grace Hopper\ - Variables\ - Strings and Numbers\ - Indexing Strings\ - String Theory\ \ ###Lesson 2: How to Repeat\ \ - Introducing Procedures\ - Sum Procedure with a Return Statement\ - Equality Comparisons\ - If Statements\ - Or Function\ - Biggest Procedure\ - While Loops\ - Print Numbers\ \ ###Lesson 2.5: How to Solve Problems\ \ - What are the Inputs\ - Algorithm Pseudocode\ - Optimizing\ \ ###Lesson 3: How to Manage Data\ \ - Nested Lists\ - A List of Strings\ - Aliasing\ - List Operations\ - List Addition and Length\ - How Computers Store Data\ - For Loops\ - Popping Elements\ - Crawl Web\ \ ### Lesson 4: Responding to Queries\ \ - Data Structures\ - Lookup\ - Building the Web Index\ - Latency\ - Bandwidth\ - Buckets of Bits\ - Protocols\ \ ### Lesson 5: How Programs Run\ \ - Measuring Speed\ - Spin Loop\ - Index Size vs. Time\ - Making Lookup Faster\ - Hash Function\ - Testing Hash Functions\ - Implementing Hash Tables\ - Dictionaries\ - Modifying the Search Engine\ \ ### Lesson 6: How to Have Infinite Power\ \ - Infinite Power\ - Counter\ - Recursive Definitions\ - Recursive Procedures\ - Palindromes\ - Recursive v. Iterative\ - Divide and Be Conquered \ - Ranking Web Pages\ \ ### Lesson 7: Past, Present, and the Future of Computing\ \ - Past of Computing\ - Computer History Museum \ - First Hard Drive\ - Search Before Computers\ - Present of Computing\ - Slac and Big Data\ - Open Source\ - Future of Computing\ - Text Analysis\ - Energy Aware Computing\ - Computer Security\ - Quantum Computing",
+      "new_release": false,
+      "homepage": "https://www.udacity.com/course/intro-to-computer-science--cs101?utm_medium=referral&utm_campaign=api",
+      "project_name": "Create and Analyze a Social Network",
+      "full_course_available": true,
+      "faq": "### When does the course begin?\ \ This class is self paced. You can begin whenever you like and then follow your own pace. It’s a good idea to set goals for yourself to make sure you stick with the course.\ \ ### How long will the course be available?\ \ This class will always be available! \ \ ### How do I know if this course is for me?\ \ Take a look at the “Class Summary,” “What Should I Know,” and “What Will I Learn” sections above. If you want to know more, just enroll in the course and start exploring.\ \ ### Can I skip individual videos? What about entire lessons?\ \ Yes! The point is for you to learn what YOU need (or want) to learn. If you already know something, feel free to skip ahead. If you ever find that you’re confused, you can always go back and watch something that you skipped.\ \ ### What are the rules on collaboration?\ \ Collaboration is a great way to learn. You should do it! The key is to use collaboration as a way to enhance learning, not as a way of sharing answers without understanding them. \ \ ### Why are there so many questions?\ \ Udacity classes are a little different from traditional courses. We intersperse our video segments with interactive questions. There are many reasons for including these questions: to get you thinking, to check your understanding, for fun, etc... But really, they are there to help you learn. They are NOT there to evaluate your intelligence, so try not to let them stress you out.\ \ ### What should I do while I’m watching the videos?\ \ Learn actively! You will retain more of what you learn if you take notes, draw diagrams, make notecards, and actively try to make sense of the material.",
+      "affiliates": [],
+      "tracks": [
+        "Data Science",
+        "Web Development",
+        "Software Engineering"
+      ],
+      "banner_image": "https://lh5.ggpht.com/UCA7Y75zHA5jwS9o5dmeAn8TlBiTZZbFQZ3ktLaVnfgSHNELh1rquY1dbzOB6BaYyXP0UMNNazdauW_g1w=s0#w=4680&h=968",
+      "short_summary": "Learn key computer science concepts in this introductory Python course. You'll learn by doing, and will build your own search engine and social network.",
+      "slug": "intro-to-computer-science--cs101",
+      "starter": true,
+      "level": "beginner",
+      "expected_duration_unit": "months",
+      "summary": "In this introduction to computer programming course, you’ll learn and practice key computer science concepts by building your own versions of popular web applications. You’ll learn Python, a powerful, easy-to-learn, and widely used programming language, and you’ll explore computer science basics, as you build your own search engine and social network.",
+      "expected_duration": 3
+    },
+    {
+      "instructors": [
+        {
+          "bio": "A passionate educator and programmer, Cameron lives and breathes web development as he creates programming courses at Udacity. Before coming here, Cameron was a combination Director of Content and web developer at Seattle startup LearnBIG. He taught four years of high school physics and chemistry in Nashville, TN, during which time he pioneered teaching physics with the video game <em>Portal 2</em>. Cameron graduated with a degree in physics and astronomy from Vanderbilt University and earned his master's in teaching from Belmont University.",
+          "image": "https://lh6.ggpht.com/k08baq8ESoDPzyVh0dfvmEqYMawGbd-gJU0_TA0M1EDptu1PNgq1Uss7eXVV8bvLzJhfZArvql-bBJYeB_zb=s0#w=200&h=200",
+          "name": "Cameron Pittman"
+        },
+        {
+          "bio": "Jessica fell in love with teaching as a wee child when she forced her younger siblings to play \"school\" and learn all the things she mastered during the past school year. Armed with a BS in Electrical Engineering Technology from the University of Central Florida, she spent her early career teaching teachers how to use microcontrollers and robotics in the classroom. She also has her ME in Engineering Management from the University of Wisconsin-Madison. In her spare time, Jessica enjoys reading, skiing, and traveling the world.",
+          "image": "https://lh3.ggpht.com/20ptLSWskAtxwXpc0GiQI0TTYbgQhGnewe8LgL8WRkyCDGS1_4PUfGxA4wz-UlFr3DiwYmh4GuTMn7YB2f8=s0#w=2000&h=2000",
+          "name": "Jessica Uelmen"
+        }
+      ],
+      "subtitle": "Not Your Typical Intro to Web Dev",
+      "key": "ud304",
+      "image": "https://lh6.ggpht.com/KHjK8i_BBLXVYAverR73RvYt06rPk7JnKQWcUIyzMYUnVSPL_zC_asTuM-e69zkibagGRnC5u-bB04nPTQ=s0#w=1278&h=786",
+      "expected_learning": "Front-end Web Developers must have a fundamental understanding of HTML and CSS, which we’ll accomplish in this course by converting digital design mockups into static web pages. To build the web pages you will use HTML, CSS and Bootstrap, the popular Twitter CSS framework.\ \ After completing this course you will be able to build a responsive portfolio site with your own CSS framework. You'll also have the functionality in place to add future projects to your portfolio. Most importantly, you will have an understanding of the DOM and how HTML, CSS, and JavaScript relate to each other.\ \ This course's project is part of our <a href=\"https://www.udacity.com/course/nd001\" target=\"_blank\">Front-End Web Developer</a> Nanodegree.",
+      "featured": true,
+      "teaser_video": {
+        "youtube_url": ""
+      },
+      "title": "Intro to HTML and CSS",
+      "required_knowledge": "You should have ability and skills to download and use a text editor for editing your web pages, we recommend <a href=\"http://www.sublimetext.com/\" target=\"_blank\">Sublime Text</a> or <a href=\"https://atom.io/\" target=\"_blank\">Atom</a>. You can use another text editor if you want, but it should have the ability to highlight code syntax for your own convenience.\ \ You should be able to download and install <a href=\"https://www.google.com/intl/en/chrome/browser/\" target=\"_blank\">Google Chrome</a>, which is the browser we’ll be exploring developer tools with in this course.",
+      "syllabus": "### Lesson 1 - <a href=\"https://udacity.com/course/viewer#!/c-ud304/l-2617868617\">From Design to Code</a>\ \ Diligently employ a code/test/refine strategy as you precisely and deliberately translate initial design documents into static web pages. You'll also investigate the Document Object Model (DOM) and its implications for web development.\ \ ### Lesson 2 - <a href=\"https://udacity.com/course/viewer#!/c-ud304/l-2810388540\">Your Own Framework</a>\ \ Take pride in creating and personalising your own multi-platform, responsive CSS framework for publishing your professional portfolio projects to the web.\ \ ### Lesson 3 - <a href=\"https://udacity.com/course/viewer#!/c-ud304/l-2794148535\">Learning and Using Bootstrap</a>\ \ Strategically investigate an existing professional CSS framework as you use it to build a website using responsive design principles while maintaining code readability.",
+      "new_release": false,
+      "homepage": "https://www.udacity.com/course/intro-to-html-and-css--ud304?utm_medium=referral&utm_campaign=api",
+      "project_name": "Portfolio Mock Up to HTML",
+      "full_course_available": true,
+      "faq": "",
+      "affiliates": [],
+      "tracks": [
+        "Web Development"
+      ],
+      "banner_image": "https://lh5.ggpht.com/hsbaPB2ONN_pDAljOlO6i5gWjneQcRnVnn5j4vmYqoqkASy2gcfKnUSogEmFcXAVwZFx1ZL2Pen-toR1zQNS=s0#w=4680&h=968",
+      "short_summary": "Learn how to convert digital design mockups into static web pages and how to build a responsive portfolio site to showcase your work.",
+      "slug": "intro-to-html-and-css--ud304",
+      "starter": false,
+      "level": "beginner",
+      "expected_duration_unit": "weeks",
+      "summary": "HTML and CSS are markup languages and the building blocks that make up the web. This course is called \"Not your Typical Intro...\" because it does not follow the usual pattern of other courses and tutorials that you find on the Internet. Usually HTML and CSS are taught with a focus on language syntax. But knowing syntax alone does not enable you to create a webpage from a design. You need to know where to start and how to approach the task, in other words - you need to learn how to think like a front-end developer. \ \ In this course you will learn how to convert digital design mockups into static web pages. We will teach you how to approach page layout, how to break down a design mockup into page elements, and how to implement that in HTML and CSS.\ \ You will also learn about responsive design techniques, which are increasingly important in a world where mobile devices and TV screens are used more and more often to look for information and entertainment.",
+      "expected_duration": 3
+    },
+    {
+      "instructors": [
+        {
+          "bio": "A passionate educator and programmer, Cameron lives and breathes web development as he creates programming courses at Udacity. Before coming here, Cameron was a combination Director of Content and web developer at Seattle startup LearnBIG. He taught four years of high school physics and chemistry in Nashville, TN, during which time he pioneered teaching physics with the video game <em>Portal 2</em>. Cameron graduated with a degree in physics and astronomy from Vanderbilt University and earned his master's in teaching from Belmont University.",
+          "image": "https://lh6.ggpht.com/k08baq8ESoDPzyVh0dfvmEqYMawGbd-gJU0_TA0M1EDptu1PNgq1Uss7eXVV8bvLzJhfZArvql-bBJYeB_zb=s0#w=200&h=200",
+          "name": "Cameron Pittman"
+        },
+        {
+          "bio": "James Williams first fell in love with teaching while working as an instructor at a computer camp. He runs obstacle course/adventure races in his spare time and is the author of HTML5 Game Programming, which has been translated into Chinese and Korean. He holds degrees in Computer Science (BA, MS) and French (BA).",
+          "image": "https://lh3.ggpht.com/XG9jWlrbNqQXp9OJjfasItFVPEVTXV0AMYOsNcydhnLHJw3CKByD4kqHOiJJIv4hBDodwry36kEKkWVkbqg=s0#w=442&h=442",
+          "name": "James Williams"
+        }
+      ],
+      "subtitle": "The Programming Language of the Web",
+      "key": "ud804",
+      "image": "https://lh6.ggpht.com/TY7yDlB-w_lMOQHAtOBZjnn-hYAsggB_9TX8TcX1XeR1kTYF4HEggwsxGKd8Ri3rag1USR0gPQvcZvJN5cw=s0#w=788&h=484",
+      "expected_learning": "Today, front-end developers work with web designers to create the interactive experiences that make the web the addictive playground we know and love. As the size and influence of the web have expanded, so has the importance of ensuring a website offers users an unforgettable experience.\ \ Perhaps your end goal is to create a HTML5 game, code the front-end for an app idea you have, or maybe you want to use one of the growing set of libraries that let you compile code written in another language or for another platform down to JavaScript. With JavaScript, you can do all these things and more.\ \ ###Project\ You will create an interactive résumé that you can share to the world and show your growing skills at the time.\ \ Having a good résumé is a key component of securing a better job. We'll give you the template styles and code to create a modern and mobile friendly résumé (also called a curriculum vitae/CV outside the United States) that you can modify and customize.",
+      "featured": false,
+      "teaser_video": {
+        "youtube_url": ""
+      },
+      "title": "JavaScript Basics",
+      "required_knowledge": "We expect that you have *some* experience programming in another language, such as Python, and can describe concepts like loops, functions and objects. Our \ <a href=\"https://www.udacity.com/course/cs101\" target=\"_blank\">Intro to Computer Science</a>\ and <a href=\"https://www.udacity.com/course/ud036\" target=\"_blank\">Programming Fundamentals with Python</a> courses are great places to get started.\ \ While we do describe the underlying principles behind basic programming techniques, this course focuses on implementing the principles with JavaScript rather than the principles themselves.\ \ HTML and CSS are not required, however, knowledge of CSS will help you customize your résumé project.",
+      "syllabus": "### Lesson 1: Getting Up and Running\ \ Learn about the tools we'll be using throughout the course and begin modifying web pages with a little bit of code.\ \ - Introduction of résumé project\ - Components of the résumé\ - Introduction to browser developer tools\ - Running commands on the console\ - Appending elements to the page\ \ ### Lesson 2: Data Types\ \ Dig deeper into JavaScript as we introduce you to the building blocks of the language as you write more complex code using variables and advanced data structures like JSON, Objects, and Arrays.\ \ - Variables\ - Strings\ - Evaluating values\ - Arrays\ - Objects\ - JSON\ - Validating JSON\ \ ### Lesson 3: Flow Control\ \ Finish the résumé while you learn how to make your code more modular and reusable by using conditional statements, loops, and functions.\ \ - Conditional statements\ - For and while loops\ - Functions\ - Encapsulation",
+      "new_release": false,
+      "homepage": "https://www.udacity.com/course/javascript-basics--ud804?utm_medium=referral&utm_campaign=api",
+      "project_name": "Interactive Resume",
+      "full_course_available": true,
+      "faq": "",
+      "affiliates": [],
+      "tracks": [
+        "Web Development"
+      ],
+      "banner_image": "https://lh4.ggpht.com/VklYwGjNp3Cmv8FbPSJGywEQGAwuOpBdIml1I2ZjgpfdJUKJ6pjPKAr1ZnkRnJlq5FXpxqoF68lOaOpiblSN=s0#w=4680&h=968",
+      "short_summary": "Learn JavaScript syntax and coding conventions that web developers use to create interactive and dynamic websites while you create an online résumé for your portfolio.",
+      "slug": "javascript-basics--ud804",
+      "starter": false,
+      "level": "beginner",
+      "expected_duration_unit": "weeks",
+      "summary": "We're here to get you started with JavaScript!\ In the twenty plus years since its inception, JavaScript has become the lingua franca of the web, that's to say, it's become the main tool to create interactive content on the Internet.\ \ In this course, you'll explore the JavaScript programming language by creating an interactive version of your résumé. You’ll learn the JavaScript programming fundamentals you need while building new elements and sections to enhance your résumé.\ \ This course is also a part of our <a href=\"https://www.udacity.com/course/nd001\">Front-End Web Developer</a> Nanodegree.",
+      "expected_duration": 3
+    },
+    {
+      "instructors": [
+        {
+          "bio": "Before joining Udacity, Caroline worked as a Software Engineer at Quixey, a startup building a search engine for apps. While receiving her undergraduate degree from Carnegie Mellon, she was a TA for six different courses, and that same love for teaching later led her to join Udacity. Outside of work, she likes reading fiction, playing board games, and drinking bubble tea.",
+          "image": "https://lh4.ggpht.com/BguyLDX-W3dEJFcXQaQZ4xLVvxpjKrwzC6CJyDbAGOm_BtIxgKNk94sq4Wxuhb4621aV6d5XFQYYOc8Jrck=s0#w=1476&h=1476",
+          "name": "Caroline Buckey"
+        },
+        {
+          "bio": "Sarah Spikes earned her BS and MS in Computer Science at Stanford, where she spent a lot of time as a Teaching Assistant. She spent two years at Google as a Software Engineer before following her passion for teaching by joining Udacity. In her spare time, Sarah enjoys performing musical theatre, making sorbet and rock climbing.",
+          "image": "https://lh5.ggpht.com/Kh0GwczQEDUTBJkjELrfF4pTNHi4HQsWmiI68bY9SlUfAU0xKidGGJjeVAt58aBf6g5T4Z5uqP7mRG2ZXEQ=s0#w=138&h=138",
+          "name": "Sarah Spikes"
+        }
+      ],
+      "subtitle": "Version Control for Code",
+      "key": "ud775",
+      "image": "https://lh5.ggpht.com/y6QqOHLmFIoeSfv2eTSAkqKxFiWVXaWvpIfInxf9nhf_SPBFf5rXElThQTZbsUFram7UEb8eN2gAUe9fLE5H=s0#w=1725&h=1060",
+      "expected_learning": "Git is used by many tech companies, and a public GitHub profile serves as a great portfolio for any developer. But more than that, you’ll establish an efficient programming workflow that allows you to:\ \ * Keep track of multiple versions of a file\ * Track bugs by reverting to previous working versions of a file\ * Seamlessly collaborate with other developers on a project\ \ The use of tools like Git and GitHub is essential for collaborating with other developers in most professional environments.",
+      "featured": true,
+      "teaser_video": {
+        "youtube_url": ""
+      },
+      "title": "How to Use Git and GitHub",
+      "required_knowledge": "While this course does not involve programming, students should have some experience with a programming or markup language.\ Additionally, students should be familiar with navigating the command line. If unfamiliar or if you want a refresher, check out [these instructions](https://www.udacity.com/wiki/ud775/command-line-instructions).",
+      "syllabus": "###Lesson 1: Navigating a Commit History\ In this lesson, you’ll learn about a few different types of version control systems and discover what makes Git a great version control system for programmers. You’ll also get practice using Git to view the history of an existing project. You’ll learn to see all the versions that have been saved, checkout a previous version, and compare two different versions.\ ###Lesson 2: Creating and Modifying a Repository\ In this lesson, you’ll learn how to create a repository and save versions of your project. You’ll learn about the staging area, committing your code, branching, and merging, and how you can use these to make you more efficient and effective.\ ###Lesson 3: Using GitHub to Collaborate\ In this lesson, you’ll get practice using GitHub or other remote repositories to share your changes with others and collaborate on multi-developer projects. You’ll learn how to make and review a pull request on GitHub. Finally, you’ll get practice by collaborating with other Udacity students to write a create-your-own-adventure story.\ \ ###Project: Contribute to a Live Project\ Students will publish a repository containing their reflections from the course and submit a pull request to a collaborative Create-Your-Own-Adventure story.",
+      "new_release": false,
+      "homepage": "https://www.udacity.com/course/how-to-use-git-and-github--ud775?utm_medium=referral&utm_campaign=api",
+      "project_name": "",
+      "full_course_available": true,
+      "faq": "",
+      "affiliates": [],
+      "tracks": [
+        "Web Development",
+        "Software Engineering"
+      ],
+      "banner_image": "https://lh3.ggpht.com/6ATWYiVnh23EJmmyQSs-IkIIiWbIfBhnzEdkjNgXlwJsuQdcKJLgY5A4Mq9zhx0uFUoLuj0SCSUP5C4xMw0=s0#w=4680&h=968",
+      "short_summary": "Learn to use version control, an important tool for any developer. The course will focus on Git, a specific version control system, and GitHub, a collaboration platform.",
+      "slug": "how-to-use-git-and-github--ud775",
+      "starter": false,
+      "level": "beginner",
+      "expected_duration_unit": "weeks",
+      "summary": "Effective use of version control is an important and useful skill for any developer working on long-lived (or even medium-lived) projects, especially if more than one developer is involved. This course, *built with input from GitHub*, will introduce the basics of using version control by focusing on a particular version control system called Git and a collaboration platform called GitHub.\ \ This course is part of the <a href=\"https://www.udacity.com/course/nd001\" target=\"_blank\">Front End</a> and <a href=\"https://www.udacity.com/course/nd004\" target=\"_blank\">Full Stack Nanodegrees</a>..",
+      "expected_duration": 3
+    },
+    {
+      "instructors": [
+        {
+          "bio": "Cay grew up in Northern Germany and attended the Christian-Albrechts-Universität in Kiel, a harbor town on the Baltic sea. He received a M.S. in computer science from Syracuse University, and a Ph.D. in mathematics from the University of Michigan in Ann Arbor. For four years, he was VP and CTO of an Internet startup that went from 3 people in a tiny office to a public company. He now teaches computer science at San Jose State University. In his copious spare time, he writes books and articles on programming languages and computer science education.\ \ Please note that the Coaching, project feedback, and Verified Certificate are provided by and through Udacity. These services are specifically not provided by or affiliated with Cay Horstmann, San Jose State University, or any publisher of Dr. Horstmann's other textbooks.",
+          "image": "https://lh5.ggpht.com/b-pMaSLEZOPel9P2s4AIoALSjk5NqFZXXltNtCVC7LYcptKvUkFnL8p7uEKqSmJVTkTYe5Ibq6xnnX_1dmc=s0#w=270&h=270",
+          "name": "Cay Horstmann"
+        }
+      ],
+      "subtitle": "Building Programs with Classes & Objects",
+      "key": "cs046",
+      "image": "https://lh4.ggpht.com/9ytiUdz0QYHwuMJFTXcNXZn4FctGW6Zszm7Aj5s7mXHHXsapIKYPL08vPWeghAjF2QmuhPiYCU2Q3kNeW7w=s0#w=1725&h=1060",
+      "expected_learning": "Java is one of the most popular programming languages used by software developers today. It is the core language used in developing Android apps, and is also commonly used in back-end web development. If you’re new to programming and want to enter either of these fields, this course is a great place to get started.\ \ Even if you don’t have a career trajectory in mind, Java programming is a great option for first-time coders due to its popularity and ease of use. This course will provide you with a solid foundation in computer science and Object Oriented Programming concepts, as well as set you on the path for success as a software engineer.",
+      "featured": false,
+      "teaser_video": {
+        "youtube_url": "https://www.youtube.com/watch?v=Wsp5Rrenoq4"
+      },
+      "title": "Intro to Java Programming",
+      "required_knowledge": "No prior programming experience and knowledge is assumed or needed. Beginners welcome!",
+      "syllabus": "### Lesson 1: Introduction to Computers, Programming Languages, Algorithms, and the Java Programming Environment\ \ ### Lesson 2: Introduction to Classes and Objects\ \ ### Lesson 3: Graphics\ \ ### Lesson 4: Fundamental Data Types\ \ ### Lesson 5: Decisions\ \ ### Lesson 6: Iterations\ \ ### Lesson 7: Arrays, ArrayLists and Simple Array Algorithms\ \ ### Lesson 8: Methods (Parameter Passing, Instance vs. Static Methods)\ \ ### Lesson 9: Inheritance",
+      "new_release": false,
+      "homepage": "https://www.udacity.com/course/intro-to-java-programming--cs046?utm_medium=referral&utm_campaign=api",
+      "project_name": "",
+      "full_course_available": true,
+      "faq": "",
+      "affiliates": [
+        {
+          "image": "https://lh3.ggpht.com/MpxH41jmm6mn0XOaVq6daHTknCMoI_ccrmrbjtyvWJ3ukfUQsumG_Wn50WWm-WH4499D25Vg4BR96Oq-F-M=s0#w=130&h=60",
+          "name": "San Jose State University"
+        }
+      ],
+      "tracks": [
+        "Software Engineering",
+        "Android"
+      ],
+      "banner_image": "https://lh3.ggpht.com/AdAALPYhCsWuIvDl0ZY6zIW23B58wqCiZYuQZPVIAeR86ylThoImtG_DRuk2gvUfMkaRS3sfTzn21wnAmHM=s0#w=4680&h=968",
+      "short_summary": "Learn essential computer science and object-oriented programming concepts in this introductory Java course.",
+      "slug": "intro-to-java-programming--cs046",
+      "starter": false,
+      "level": "beginner",
+      "expected_duration_unit": "months",
+      "summary": "In this introductory course, you'll learn and practice essential computer science concepts using the Java programming language. You'll learn about Object Oriented Programming, a technique that allows you to use code written by other programmers in your own programs. You'll put your new Java programming skills to the test by solving real-world problems faced by software engineers.",
+      "expected_duration": 4
+    },
+    {
+      "instructors": [
+        {
+          "bio": "After obtaining a bachelor’s degree in computer science from the University of Texas at Austin, Kunal worked as a programmer for three years, but then decided to switch gears to education. He taught middle school science, worked with Google on a distance learning initiative, and eventually earned a master’s degree in educational technology from Stanford University before joining Udacity.",
+          "image": "https://lh5.ggpht.com/9ybNWBjttm9bN1UYNLc7VzAN2mDZ5OH8ufgw35GlEmdzhDlP1ys8NmIluwYIRq1rljJPxqlg0Fl8YWfWCw=s0#w=150&h=150",
+          "name": "Kunal Chawla"
+        }
+      ],
+      "subtitle": "Learn Object-Oriented Programming",
+      "key": "ud036",
+      "image": "https://lh5.ggpht.com/MNie9OxrtYLt5C_QMgezV9fYYR-07-U9z2AkqwKQhDIOguka15xhxrNafPFK6X538EUS6j0vJ193gEGLOpI=s0#w=1757&h=1080",
+      "expected_learning": "You should take this course if you want to build awesome projects, while writing only a few lines of code. Here are some of them:\ \ - **Project Take a Break**: Do you know a friend who works too many hours? We will write a program that schedules breaks throughout the day -- reminding your friend to listen to music, get up and dance to their favorite song, or just walk away from the computer every once in awhile. <a href=\"http://youtu.be/C29aerpwkc8\" target=\"_blank\">http://youtu.be/C29aerpwkc8</a>\ - **Project Profanity Editor**: Imagine it’s late at night and you get an email from your boss, requesting your help with something. You reply, “I can take a shot at it” but accidentally end up including an awkward word (sh*t). Oops. We will write a python program that detects curse words, and saves clumsy email writers from embarrassing moments. <a href=\"http://youtu.be/Rvj2UI-wVXA\" target=\"_blank\">http://youtu.be/Rvj2UI-wVXA</a>\ - **Movie Website**: We will learn how to make an awesome webpage that lists your favorite movies and shows their trailers. \ <a href=\"https://www.youtube.com/watch?v=X0FoelOIZM0&t=1m24s\" target=\"_blank\">https://www.youtube.com/watch?v=X0FoelOIZM0&t=1m24s</a>\ <br />\ \ While building these projects we will learn about a programming technique that is used by software engineers on a daily basis; it is called Object-Oriented Programming. \ \ Finally, we will work together to get better at reading help documents and using other people’s code almost like lego blocks to build our programs. By building these projects, you’ll become more confident in your ability to code and transition from “programming looks like magic” to “oh, I can do that.”",
+      "featured": false,
+      "teaser_video": {
+        "youtube_url": "https://www.youtube.com/watch?v=bwq2W6XUvyg"
+      },
+      "title": "Programming Foundations with Python",
+      "required_knowledge": "We require some familiarity with the following programming ideas in any computer language (C++, Java, Python, English etc.):\ \ - if statements\ - loops\ - functions\ \ \ Don’t worry if you feel you need a refresher on any of these programming ideas. That’s ok. We will provide information that will remind you how to use these ideas when building programs.",
+      "syllabus": "### Lesson 0: Introduction (30 min)\ We will begin with an introduction from the instructor. More specifically, we will talk about the projects we will build and the ideas we will learn in this course. Then we will conduct a short test to ensure you have all the prerequisites necessary for the course. Finally, we will work together to download Python on your computer.\ \ ### Lesson 1: Using Functions (3.5 hours)\ We will use functions (webbrowser.open and os.rename) from the Python Standard Library to build two projects in this lesson. After that we will present a scenario where using functions will not present a very elegant solution; this will illuminate the need for a new programming tool called Classes.\ \ ### Lesson 2: Using Classes (5 hours)\ Here we will learn about important object-oriented programming concepts like classes and instances. We will build three cool projects while using classes. These include drawing shapes with Turtle, sending text messages with Twilio and checking curse words with a function called open.\ \ We will leverage modules from within the Python Standard Library and also learn to download and use an external Python package (twilio).\ \ ### Lesson 3: Making Classes (5 hours)\ In this lesson we will learn to create our first class. While doing this we will build a website that plays trailers of your favorite movies. Here are some of the programming ideas we will learn in this lesson:\ \ - How to create a class\ - How to instantiate an object\ - How to access class attributes and methods \ - What is the self keyword\ - What are constructors (\\__init__)\ - What are DocStrings\ - How to create and access Class Variables\ - How does Inheritance work\ - How to override methods \ \ ### Final Project (6 hours)\ Here, you will use the skills learned in this course to identify a problem statement and idea for a project. You will then identify step-by step directions (in simple English) to design a solution for the previously identified problem. Finally, you will use this design and your newly learned object-oriented programming skills to write code to realize your project.",
+      "new_release": false,
+      "homepage": "https://www.udacity.com/course/programming-foundations-with-python--ud036?utm_medium=referral&utm_campaign=api",
+      "project_name": "Explore Python to Build Your Own Program",
+      "full_course_available": true,
+      "faq": "",
+      "affiliates": [],
+      "tracks": [
+        "Web Development",
+        "Software Engineering"
+      ],
+      "banner_image": "https://lh3.ggpht.com/pmJ91CZPKtNWq_0KpHhWnmQ1xr2_lmwvm-dfEqnz3hxBwV9qrfO4Q9MSNN19mkCb6CPm9cJPzQe7fd5T5pU=s0#w=4680&h=968",
+      "short_summary": "Introductory programming class to learn Object-Oriented Programming, a must-have technique to reuse and share code easily. Learn by making projects that spread happiness!",
+      "slug": "programming-foundations-with-python--ud036",
+      "starter": false,
+      "level": "beginner",
+      "expected_duration_unit": "weeks",
+      "summary": "In this introductory programming class, you’ll learn Object-Oriented Programming, a must-have technique for software engineers that will allow you to reuse and share code easily. You’ll learn by doing, and will build byte-sized (ha!) mini projects in each lesson to learn and practice programming concepts. \ \ We’ve heard that programming can be intimidating for newcomers, and we’ve created this course to make sure that you have a great learning experience! You’ll learn ***actively*** with our mini projects (see the awesome list below), which you’ll be able to share proudly with your friends. You’ll also learn important programming concepts one by one, with no surprises or leaps of logic along the way. \ \ You’ll pick up some great tools for your programming toolkit in this course! You will: \ \ - Start coding in the programming language Python;\ - Reuse and share code with Object-Oriented Programming;\ - Create and share amazing, life-hacking projects! \ \ \ This introductory course is for you if you want to be a software engineer, or if you want to collaborate with programmers. Mastering Object-Oriented Programming will propel your career in tech forward, and it’s also a great way to learn how software engineers think about solving problems.\ \ This course is also a part of our <a href=\"https://www.udacity.com/course/nd004\" target=\"_blank\">Full Stack Web Developer</a> Nanodegree.",
+      "expected_duration": 6
+    },
+    {
+      "instructors": [
+        {
+          "bio": "After obtaining a bachelor’s degree in computer science from the University of Texas at Austin, Kunal worked as a programmer for three years, but then decided to switch gears to education. He taught middle school science, worked with Google on a distance learning initiative, and eventually earned a master’s degree in educational technology from Stanford University before joining Udacity.",
+          "image": "https://lh5.ggpht.com/9ybNWBjttm9bN1UYNLc7VzAN2mDZ5OH8ufgw35GlEmdzhDlP1ys8NmIluwYIRq1rljJPxqlg0Fl8YWfWCw=s0#w=150&h=150",
+          "name": "Kunal Chawla"
+        }
+      ],
+      "subtitle": "Make Your First iPhone App",
+      "key": "ud585",
+      "image": "https://lh6.ggpht.com/EMXyMl3EwCgLdaLkYkOFsEwnXI7feP6_Mt4rTSa9_nBZQ2lnRKuyVlhSeTWHJfYVi_uGyC2mkEhXymajTrMu=s0#w=1724&h=1060",
+      "expected_learning": "This course will set you on your way to becoming an iOS Developer, where you’ll establish a basic understanding of the iOS ecosystem. You’ll also have working knowledge of Swift, Apple’s custom programming language created exclusively for the mobile developer.",
+      "featured": true,
+      "teaser_video": {
+        "youtube_url": "https://www.youtube.com/watch?v=bOxlCjM5gw8"
+      },
+      "title": "Intro to iOS App Development with Swift",
+      "required_knowledge": "This course assumes prior programming experience. Specifically, you should have a strong understanding of programming concepts like variables, if statements, loops, functions, and classes. Lesson 1 of [Intro to Computer Science](https://www.udacity.com/course/cs101) and [Programming Foundations with Python](https://www.udacity.com/course/ud036) are good courses to take if you are completely new to programming.\ \ You will also need access to a Mac computer running OS X 10.10 or later.\ \ We have designed this course such that you will not need a physical device (i.e. an iPhone or an iPad) to build your app. We will be using a simulator on your mac that will imitate the features of a phone on your computer. Towards the end of the course we will provide instructions on how to download your app on an iPhone (in case you do have access to a physical device.)",
+      "syllabus": "###Lesson 1: Introduction (1 hour)\ In this lesson, you'll get up and running with Xcode, the environment used to program iOS apps. You'll also learn to start reading Swift code by identifying important syntax.\ ###Lesson 2: Making v1 of Our App (3 hours)\ In this lesson, you'll create a simplified version of the final app by adding buttons, images, and text to a precise location on the phone. You'll also learn about MVC (Model-View-Controller) architecture and how it is used in app development. \ \ We will introduce you to the following iOS classes in this lesson:\ \ - UIButton\ - UILabel\ - NSLayoutConstraint\ - UIView\ - UIViewController\ \ We will also introduce you to the following framework:\ \ - UIKit\ \ ###Lesson 3a: Navigating Between Two Screens in our App (2 hours)\ In this lesson, you'll learn how to smoothly transition between two screens in our app. Throughout this lesson, we will discuss something called the View Lifecycle - this includes a conversation around how to load different objects in our app and how to handle low memory-related events. \ \ We will introduce you to the following iOS classes in this lesson:\ \ - UINavigationController\ \ ###Lesson 3b: Playing Audio (4 hours)\ In this lesson, we'll play a short audio clip from a famous movie, and will tinker with this movie quote to make it play super fast and really slowly. Here, you'll also begin to establish credibility as a professional developer by authoring a public blog post on how to accomplish a specific task in Swift.\ \ We will introduce you to the following iOS classes in this lesson:\ \ - AVAudioPlayer\ \ We will also introduce you to the following framework: \ \ - AVFoundation\ \ ###Lesson 4a: Recording Audio (2 hours)\ In this lesson, you'll put finishing touches on the app by learning to record your voice. Here, we will explore a powerful iOS idea called Delegates, which makes it really easy to create apps. \ \ We will introduce you to the following iOS classes in this lesson:\ \ - AVAudioRecorder\ \ ###Lesson 4b: Adding Chipmunk and Darth Vader Effects (3 hours)\ \ In this lesson, we will learn to alter the pitch of the audio we recorded in lesson 4a. This change will make your voice sound like a Chipmunk or Darth Vader.\ At the end of this lesson you'll have the know-how to install the app on your phone.\ \ We will introduce you to the following iOS classes in this lesson:\ \ - AVAudioEngine\ - AVAudioPlayerNode\ - AVAudioUnitTimePitch\ \ \ ###Final App Submission (1 hour)\ In this final lesson, you will ensure that your app works according to a rubric we have designed, and will also have an opportunity to add new features to your app. We will also share with you a Code Review document that contains suggestions from an external reviewer on how to improve your code. We will request that you implement those suggestions to enhance your code and make it ready for the app store. Finally, to complete the course, you will submit your app to a Udacity coach for a thorough evaluation of your work.",
+      "new_release": false,
+      "homepage": "https://www.udacity.com/course/intro-to-ios-app-development-with-swift--ud585?utm_medium=referral&utm_campaign=api",
+      "project_name": "Make your first iPhone app",
+      "full_course_available": true,
+      "faq": "Before course development started, we asked you what questions you had about Apple's Swift language. Here are the answers to your most burning questions:\ \ ### Why is the language called Swift?\ The language was designed with two goals in mind: to be (1) swift to code, and (2) swift to execute. In terms of speed, Swift compiles Swift code to optimized native code depending on target device. In terms of learning curve, the Swift syntax was designed to be clean and easy to read. \ \ ### Should I learn Swift or Objective-C?\ Swift! Apple has made it clear that Swift is the cornerstone of the future of iOS development. Plus, you can still utilize Objective-C files alongside Swift code, so you won’t miss out on any pre-existing libraries and code.\ \ ### How easy is Swift to learn?\ Swift was designed to be friendly for new programmers, and as a result it is incredibly easy to learn. <a href=\"https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/\">According to Apple</a>, Swift is the “first industrial-quality systems programming language that is as expressive and enjoyable as a scripting language.” Some have even <a href=\"http://www.zdnet.com/why-apples-swift-might-be-the-new-basic-and-thats-no-small-thing-7000030186/\" target=\"_blank\">called Swift the new BASIC</a>.\ \ ### Is it fast?\ <a href=\"http://www.apple.com/swift/\" target=\"_blank\">Apple boasts</a> that Swift is up to 2.6x faster than Objective-C and 8.4x faster than Python 2.7. And why should you care about how quickly code executes? Well, faster running code makes for more efficient and smoother running apps, which makes for a better experience for your user.\ \ ### Why did Apple decide to create a new language?\ Objective-C has been Apple’s primary programming language for app writing since OS X was created. In that time, programming languages and practices changed drastically, especially in mobile development. Rather than adopt a new, already existing language, Apple created a new language tailored specifically for development on their own hardware.\ \ ### Can I create an app in Swift and submit it to the App Store?\ Absolutely! In fact, you were able to as soon as Xcode 6 and iOS 8 launched.\ \ ### Why was there a need to go from Objective-C to Swift?\ As mentioned in the answer to question five, after 20 years, Objective-C was starting to show it’s age. Plus, Objective-C is a difficult language for new programmers to learn, so the barrier to entry is pretty high. Swift provides a modern language tailor-made for Apple hardware.\ \ ### How Stable is Swift?\ As with any new language, there is a potential for bugs. While you may encounter some trouble with the Swift language, the majority of issues were addressed before the 1.0 release.\ \ The thing to most look out for is changes to the Swift language during each update. For example, when updating from 1.0 to 1.1, Apple introduced a new feature: <a href=\"https://developer.apple.com/swift/blog/?id=17\" target=\"_blank\">failable initializers</a>. You can expect that the language will change as more people use it and give feedback to Apple. Stay apprised of changes using the <a href=\"https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/RevisionHistory.html#//apple_ref/doc/uid/TP40014097-CH40-XID_1655\" target=\"_blank\">revision history for *The Swift Programming Language*</a>.\ \ ### What other languages is it similar to?\ Swift is probably most similar in look and feel to Ruby or Python. Though you’ll also probably recognize some C syntax. \ \ ### Is it compatible with iOS 6 & 7?\ Swift can be run on iOS 7, but not iOS 6.",
+      "affiliates": [],
+      "tracks": [
+        "iOS"
+      ],
+      "banner_image": "https://lh5.ggpht.com/6dnxW1q6Hip7w1eSqZgKYO2nbGAC9EZjDOHIoKnUu15EgFwTwVl6RLJpU24unfD3e3by9PsZcvWVRS1qrddb=s0#w=4680&h=968",
+      "short_summary": "Take the first step in becoming an iOS Developer by learning about Swift and writing your first app.",
+      "slug": "intro-to-ios-app-development-with-swift--ud585",
+      "starter": false,
+      "level": "intermediate",
+      "expected_duration_unit": "months",
+      "summary": "In this course we will build an iPhone app that records a conversation between you and a friend, and then makes your voices sound like a Chipmunk or Darth Vader.\ \ This course will introduce you to iOS app development in Swift, a new programming language from Apple, and serves as your launching point into the [iOS Developer Nanodegree](https://www.udacity.com/course/nd003).",
+      "expected_duration": 1
+    },
+    {
+      "instructors": [
+        {
+          "bio": "Reto Meier has been part of the Android Developer Relations at Google since 2009, and leads Google’s Scalable Developer Advocacy team. He’s passionate about helping developers build the best possible apps on Android, and is the author of the Professional Android Application Development series of Android books from Wrox.",
+          "image": "https://lh4.ggpht.com/B81wkmIGXpxkos1aNGmps6MAlIHWPjPZrU1_FvmY7NqBqWUtdZW1_M3be45mncw1Eh8-sXKfooxxoLC8g88=s0#w=816&h=817",
+          "name": "Reto Meier"
+        },
+        {
+          "bio": "Katherine Kuan is a Developer Advocate at Google. Before that, she was a software engineer on the Android Apps team for Google Keep, Google Play, and the People app (formerly Contacts). She is enthusiastic about helping others build apps to improve their communities.",
+          "image": "https://lh3.ggpht.com/Zzx54B0TsSm8vdFpeLQ2EG5rSbI2y1SuEUiP70deynPFnnIdYInu2n-R934qB2Vg_Nf7f0snWDgqaWcXXgU=s0#w=99&h=99",
+          "name": "Katherine Kuan"
+        },
+        {
+          "bio": "Dan Galpin is a Developer Advocate for Android, where his focus has been on Android performance tuning, developer training, and games. He has spent over 10 years working in the mobile space, developing at almost every layer of the phone stack. There are videos that demonstrate that he has performed in musical theater productions, but he would deny it.",
+          "image": "https://lh4.ggpht.com/Pzkx8eAr2YiUFTjkRZR-j2ILL09wtq_kcTYBH0eSk1a31W2Z8BnFrue2HiK3_ofdT5rfNnuwH_46cL-lBw=s0#w=127&h=127",
+          "name": "Dan Galpin"
+        },
+        {
+          "bio": "Alexander Lucas has been part of Android Developer Relations at Google since 2010. Previously, he did mobile game development with J2ME, and had a brief stint as a web developer with ColdFusion. Alex obsesses over how to write sample code so good, it teaches the developer reading it. His life goal is to save everyone in the world 5 minutes.",
+          "image": "https://lh3.ggpht.com/9ipR3nbwEKhpRvVEQJfNURQWQDABD8VquNUAmufL7m07MKYKCBr2wdBc99Uo9sSaugb6-03arSIqt7ClfJk=s0#w=161&h=161",
+          "name": "Alexander Lucas"
+        }
+      ],
+      "subtitle": "Android Fundamentals",
+      "key": "ud853",
+      "image": "https://lh6.ggpht.com/57QPWoDnN4dSulg4tqC_pFHcN5pmUIzyrXyu3TiirP1JRCQ36fzz6IgEPl2HdMZ3GIrc80rRzAkRiPUyOXM=s0#w=1724&h=1060",
+      "expected_learning": "With over 1 billion Android devices already activated, Android represents an incredible opportunity for developers.\ \ As Android continues to grow beyond smartphones, it will become the brains behind invisible, ubiquitous cloud-connected computing. The skills you learn in this course will help you build awesome apps for smartphones and tablets today, and propel you towards exciting opportunities in Android's future.\ \ By the end of this course, you’ll build a cloud-connected Android app, and understand the tools, principles, and patterns that underlie all Android development. You’ll understand the challenges associated with developing for the mobile environment (and how to overcome them), learn how to build a great user experience for Android devices, and apply this knowledge to your own projects.",
+      "featured": true,
+      "teaser_video": {
+        "youtube_url": "https://www.youtube.com/watch?v=LfVBFFoy9Y0"
+      },
+      "title": "Developing Android Apps",
+      "required_knowledge": "**This course is intended for students with at least 1 year of programming experience in Java or another object-oriented programming language** (for example: C++, Objective C or Python). Udacity's <a href=\"http://www.udacity.com/course/cs046\" target=\"_blank\">Intro to Java</a> is a helpful background if you're looking to refresh your Java skills.\ \ You will be expected to download <a href=\"http://developer.android.com/sdk/installing/studio.html\" target=\"_blank\">Android Studio</a> in order to follow along with the instructors throughout the course. You also should be comfortable working with code on <a href=\"http://www.github.com\" target=\"_blank\">Github</a>. \ \ Access to an Android device is helpful -- but not required -- to complete the final project.",
+      "syllabus": "### Lesson 1: Create Project Sunshine with a Simple UI (5-8 hrs) \ Starting by installing Android Studio, you’ll create your first project with a simple list-based user interface and built and deploy it to virtual and actual devices. You’ll also discover what makes mobile - and Android in particular - a unique environment for app development.\ \ * Android Studio, Gradle, and debugging tools\ * User Interface and Layout managers\ * ListViews and Adapters\ \ ### Lesson 2: Connect Sunshine to the Cloud (8-10 hrs) \ Replace the mock data with real weather data by connecting Sunshine up to an Internet back-end courtesy of the Open Weather Map API. You’ll learn how to add permissions to your app, initiate network I/O, and how to move time consuming tasks like network data transfers off the main UI thread.\ \ * Threading and ASyncTask\ * HTTP requests on web APIs\ * Android Permission System\ \ ### Lesson 3: Create New Activities and Navigate Apps with Intents (8-10 hrs) \ Give your app structure and create more complex Activities. You’ll learn about Android’s Intent framework, and how to use Intents to navigate between Activities, both within your app and as a way to add 3rd party functionality.\ \ * App navigation with Explicit Intents\ * Implicit Intents to incorporate 3rd-party apps \ * Share Intent and the Android sharing framework\ * Broadcast Intents and Broadcast Receivers\ \ ### Lessons 4: Use Content Providers and Loaders to Persist and Recover Data (15-20 hrs) \ Learn how the Android framework manages the activity lifecycle, and how it differs from what you might expect, and dive head-first into the world of persistent storage. Learn how to create databases, use Android’s Content Providers to provide an abstraction layer between your data and your UI implementation, and use Loaders to efficiently load stored data.\ \ * Activity lifecycle and background activity termination\ * SQLite databases and JUnit tests\ * Creating and using a Content Provider as an abstraction layer\ * Using Loaders to asynchronously load data\ * Creating Adapters to bind UI components to Content Providers\ \ ### Lesson 5: Implement Rich and Responsive Layouts (8-10 hrs) \ Create rich, responsive user interfaces that work across a variety of different hardware types and screen sizes. You’ll learn more details on using the Android Layout managers, Fragments, UI widgets, and Android design principles to add visual polish to your user interfaces, and how to create your own controls from scratch.\ \ * Fundamental Android design principles\ * Supporting localization and variable screen sizes \ * Optimizing tablet UIs using Fragments\ * Accessibility Features\ * Custom views\ \ ### Lesson 6: Use Services and Notifications to Run in the Background (5-8 hrs) \ Deliver a great user experience, even when your app isn’t visible. Learn how the Android framework manages background apps; and discover how to use Services and Notifications to make your app to be active when it’s not in the foreground. You’ll learn techniques for efficient data transfers using SyncAdapters and Google Cloud Messaging, so your app can stay up-to-date without draining the battery.\ \ * Background services and alarms to schedule background tasks\ * Efficient background data transfers with SyncAdapters \ * Rich notifications to interact with users\ \ ### Final Project (10-20 hours)\ Build your own Android app incorporating the skills you've learned in this course.",
+      "new_release": false,
+      "homepage": "https://www.udacity.com/course/developing-android-apps--ud853?utm_medium=referral&utm_campaign=api",
+      "project_name": "Build Your Own Android App",
+      "full_course_available": true,
+      "faq": "",
+      "affiliates": [
+        {
+          "image": "https://lh3.googleusercontent.com/t420E7uMLGBphPjp_Ts6IpkfcH4v46hr7WCxpobeLb1sSWCZkG9L66UDPQZUpR8y2sZfFdWd3zKVsGFIqw=s0#w=120&h=55",
+          "name": "Google"
+        }
+      ],
+      "tracks": [
+        "Android"
+      ],
+      "banner_image": "https://lh3.ggpht.com/GSQMyYy0eEe9jJr1gJCrkPCNCrUKNbOQwxvn1ksFDRyVgfbPYKO0QcE49JBgfRanGeQ0arpV0rIwaJr6CV8=s0#w=4680&h=968",
+      "short_summary": "Build a cloud-connected Android app, and learn the tools, principles, and best practices of mobile and Android development that you'll apply to your own projects.",
+      "slug": "developing-android-apps--ud853",
+      "starter": false,
+      "level": "intermediate",
+      "expected_duration_unit": "weeks",
+      "summary": "Android Fundamentals blends theory and practice to help you build great apps the right way. In this course, you'll work with instructors, step-by-step, to build an Android app, and learn best practices of mobile development in general and Android development in particular.\ \ ####[Download Udacity's Android app](https://play.google.com/store/apps/details?id=com.udacity.android) to keep learning wherever you go!",
+      "expected_duration": 10
+    },
+    {
+      "instructors": [
+        {
+          "bio": "Colt McAnlis is a Developer Advocate at Google focusing on Performance and Gaming; Before that, he was a graphics programmer in the games industry working at <a href=\"http://goo.gl/TfRlw\" target=\"_blank\">Blizzard</a>, <a href=\"http://goo.gl/6w5AMB\" target=\"_blank\">Microsoft</a>, and <a href=\"http://goo.gl/1RyVsu\" target=\"_blank\">Petroglyph</a>. He’s been an Adjunct Professor at <a href=\"http://goo.gl/4wHn51\" target=\"_blank\">SMU Guildhall</a>, a <a href=\"http://goo.gl/vaWjc\" target=\"_blank\">UDACITY</a> instructor, and a <a href=\"http://goo.gl/di4Osg\" target=\"_blank\">Book Author</a>. Recently, he’s been teaching Android Devs the <a href=\"http://goo.gl/4ZJkY1\" target=\"_blank\">Zen of Performance</a>. When he's not working with developers, Colt spends his time preparing for an invasion of giant ants from outer space.\ \ You can follow him on G+ (+Colt McAnlis) or Twitter (@duhroach)",
+          "image": "https://lh3.ggpht.com/fqXCAak3vE6L4YY-_JjvhpftvEduRczdO1JUlFz8OAFBIgobjI3bc1cI7akEmwe9gKOieAdCJn29refQ0w=s0#w=285&h=285",
+          "name": "Colt McAnlis"
+        }
+      ],
+      "subtitle": "Optimizing Apps for Speed and Usability",
+      "key": "ud825",
+      "image": "https://lh3.googleusercontent.com/UzGa6qp8rCvzusnwS0URvdtUuLiCD_pxwdl8jIM9BKZN2gaEAKylPxtQ-ASvL3c3LaRr75xbpw7qhcJxQR0=s0#w=1429&h=809",
+      "expected_learning": "Users want apps that download and run fast and efficiently. If your app performs well on low-end devices and slower internet connections, your user base, and thus your impact and potential for monetization, can increase dramatically. The ability to make conscious coding decisions that focus on the user experience is a trait that separates mediocre Android programmers from the leaders of the industry. \ \ You may have the most exciting Android app in the world, but if it is slow and drains the battery, users will uninstall it, and leave you bad ratings because of it. Performance matters to users, so it must matter to you. \ \ By the end of this course, you will understand how common performance problems arise from your hardware, OS, and application code. Using profiling tools to gather data, you will be able to identify and fix performance bottlenecks, so users can have that smooth 60 FPS experience that will keep them coming back for more.",
+      "featured": false,
+      "teaser_video": {
+        "youtube_url": ""
+      },
+      "title": "Android Performance",
+      "required_knowledge": "To get the most from this course, you should have experience developing apps in Java on Android devices, understand the basics of the Android life cycle, and know how to perform basic operations in a terminal. \ \ You also need access to an Android device, and working knowledge of Github, in order to follow along with the exercises. \ \ If you’ve never developed a working Android app, check out our <a href=\"http://www.udacity.com/course/ud853\" target=\"_blank\">Developing Android Apps</a> course before taking this one.\ \ If you're unfamiliar with Github, check out our course on <a href=\"http://www.udacity.com/course/ud775\" target=\"_blank\">How to Use Git and Github</a>.",
+      "syllabus": "### Lesson 0: Welcome!\ An introduction to the course content and structure.\ ### Lesson 1: Render\ How to identify and diagnose the key performance problems that come with drawing to the screen. \ ### Lesson 2: Compute and Memory\ Understand how code is executed in your program, and how to handle the performance problems associated with compute and memory. \ ### Lesson 3: Battery\ How to detect and diagnose battery problems, and why it matters to your users.",
+      "new_release": false,
+      "homepage": "https://www.udacity.com/course/android-performance--ud825?utm_medium=referral&utm_campaign=api",
+      "project_name": "",
+      "full_course_available": false,
+      "faq": "",
+      "affiliates": [
+        {
+          "image": "https://lh3.googleusercontent.com/t420E7uMLGBphPjp_Ts6IpkfcH4v46hr7WCxpobeLb1sSWCZkG9L66UDPQZUpR8y2sZfFdWd3zKVsGFIqw=s0#w=120&h=55",
+          "name": "Google"
+        }
+      ],
+      "tracks": [
+        "Android"
+      ],
+      "banner_image": "https://lh6.ggpht.com/8N0H7NoJNFO1PZ-0Onez0kjfUxajYwgVREb7ls21mhfT0eGY79PjgvVpS_hbkNfmdjJssoXWddp-Wl-ewA=s0#w=4680&h=968",
+      "short_summary": "Performance matters to users, so it must matter to you. Learn how to identify and fix bottlenecks in your Android applications, and ensure a smooth user experience.",
+      "slug": "android-performance--ud825",
+      "starter": false,
+      "level": "advanced",
+      "expected_duration_unit": "weeks",
+      "summary": "If you’ve ever hit performance issues that affect your app’s usability, this course will teach you how to identify and diagnose your performance problems. By the end of this course, you’ll be able to perform exploratory tests, run profiling tools, use outputs to navigate to problematic code, and design a plan of attack to mitigate poor performance. You’ll also gain a higher level of understanding about how program code and the Android platform interact, which will help you optimize for performance in the future.",
+      "expected_duration": 4
+    },
+    {
+      "instructors": [
+        {
+          "bio": "Karl is a Course Developer at Udacity. Before joining Udacity, Karl was a Site Reliability Engineer (SRE) at Google for eight years, building automation and monitoring to keep the world's busiest web services online. Outside of work, his interests include gardening, cooking, board games, and messing around with new programming languages. No whiteboard is safe from his doodles.",
+          "image": "https://lh4.ggpht.com/lPP6ZKw18QV_pfdCh9722AgWEXWZ1-ONsQi-sxmceK18IruOWPEc8u0CrvYNE6KFa4w6jJzwmu8pYmo4Sw=s0#w=501&h=501",
+          "name": "Karl Krueger"
+        }
+      ],
+      "subtitle": "SQL, DB-API, and More!",
+      "key": "ud197",
+      "image": "https://lh4.ggpht.com/H9zRncxCIalNMrZLqYqGNikKXGPe7U_f6tS-v1VeHo12Zt8QqpTDqxI1FMsJSLYXWNpz1BhZXTgeQZRw_3s=s0#w=1758&h=1080",
+      "expected_learning": "If you look under the hood of a lot of major web sites — from Wikipedia to Reddit — you'll find a relational database somewhere.\ \ Database systems such as PostgreSQL and MySQL have been part of the web developer's toolkit for many years, and remain some of the most powerful tools available for storing and manipulating structured data.\ \ If you're planning to continue on in full-stack development, knowing about databases is essential background. Even though many toolkits hide the details of the database from your application code, being able to interact with the database will serve you well in designing, debugging, and maintaining your applications.",
+      "featured": false,
+      "teaser_video": {
+        "youtube_url": ""
+      },
+      "title": "Intro to Relational Databases",
+      "required_knowledge": "**You can read and write basic code in Python.** This course uses programming exercises in Python. If you haven't worked with Python before, check out our course <a href=\"https://www.udacity.com/course/ud036\" target=\"_blank\">Programming Foundations with Python</a>.\ \ If you can understand this code (maybe with the help of the <a href=\"https://docs.python.org/2/library/random.html#random.choice\" target=\"_blank\">**random** module documentation</a>), you know enough Python for this course:\ \ <pre>\ import random\ \ def ChooseTwice(items):\ a = random.choice(items)\ b = random.choice(items)\ return a, b\ \ names = [\"Alice\", \"Bob\", \"Charlie\", \"Debra\"]\ (one, two) = ChooseTwice(names)\ if one == two:\ print \"%s is happy!\" % one\ else:\ print \"%s likes %s!\" % (one, two)\ </pre>\ \ **You can use a command-line interface (terminal).** Some of the exercises in this course involve using a Unix-style command-line interface to enter commands, run Python programs, and navigate directories.\ \ If you have taken our course on <a href=\"/course/ud775\" target=\"_blank\">Git and Github</a>, the level of command-line use in this course is similar.\ \ **You don't need to be a Web programmer.** This course does include a small Web application and some HTML and JavaScript in examples, but you will not need to make changes in these languages.\ \ **You don't need any previous database experience.** This course is an entry-level introduction to relational databases.\ \ **You need a programming text editor** (such as <a href=\"http://www.sublimetext.com/\" target=\"_blank\">Sublime Text</a>) installed on your computer. You should be able to use it to open and edit files of Python code.",
+      "syllabus": "### Lesson 1: Data and Tables\ In this lesson, you'll learn about how relational databases let you structure data into tables. You'll learn about the importance of unique keys and relationships between tables.\ \ ### Lesson 2: <s>Elephants</s> Elements of SQL\ In this lesson, you'll begin learning SQL, the Structured Query Language used by most relational databases. You'll learn about the **select** and **insert** statements, the basic operations for getting data out of a database and putting data into a database. You'll learn about the operators and syntax available to get the database to scan and join tables for you.\ \ ### Lesson 3: Python DB-API\ In this lesson, you'll learn how to access a relational database from Python code. You'll use a virtual machine (VM) running on your own computer to run a Python web application, and adapt that application to use a database backend. Then you'll learn about some of the most common security pitfalls of database-backed applications, including the famous <a href=\"http://xkcd.com/327/\" target=\"_blank\">Bobby Tables</a>. This lesson also covers the SQL **update** and **delete** statements.\ \ ### Lesson 4: Deeper Into SQL\ In this lesson, you'll learn how to design and create new databases. You'll learn about normalized design, which makes it easier to write effective code using a database. You'll also learn how to use the SQL **join** operators to rapidly connect data from different tables.\ \ ### Lesson 5: Final Project\ In this project, you'll use your Python and SQL knowledge to build a database-backed Python module to run a game tournament. You'll design the database schema and write code to implement an API for the project.",
+      "new_release": false,
+      "homepage": "https://www.udacity.com/course/intro-to-relational-databases--ud197?utm_medium=referral&utm_campaign=api",
+      "project_name": "",
+      "full_course_available": false,
+      "faq": "",
+      "affiliates": [],
+      "tracks": [
+        "Web Development"
+      ],
+      "banner_image": "https://lh3.ggpht.com/_IU6K-6RwzuS59MFXIFRpiPFUPED8t-bZQbB9fY9BqXEeVMf1giijZISSMbXMossadcebHkJViOCoGaAHw=s0#w=4680&h=968",
+      "short_summary": "Relational databases are a powerful tool used throughout the industry. Learn the basics of SQL and how to connect your Python code to a relational database.",
+      "slug": "intro-to-relational-databases--ud197",
+      "starter": false,
+      "level": "intermediate",
+      "expected_duration_unit": "weeks",
+      "summary": "This course is a quick, fun introduction to using a relational database from your code, using examples in Python. You'll learn the basics of SQL (the Structured Query Language) and database design, as well as the Python API for connecting Python code to a database. You'll also learn a bit about protecting your database-backed web apps from common security problems.\ \ After taking this course, you'll be able to write code using a database as a backend to store application data reliably and safely.",
+      "expected_duration": 4
+    }
+  ]
+}

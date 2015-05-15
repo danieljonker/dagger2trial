@@ -1,7 +1,10 @@
 package nz.co.jonker.dagger2trial;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -9,28 +12,36 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.inject.Inject;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 import nz.co.jonker.dagger2trial.data.ApiInterface;
-import nz.co.jonker.dagger2trial.data.GenderResponse;
+import nz.co.jonker.dagger2trial.data.models.Course;
+import nz.co.jonker.dagger2trial.data.models.CourseResponse;
+import nz.co.jonker.dagger2trial.ui.CoursesAdapter;
 import retrofit.Callback;
 import retrofit.RetrofitError;
 import retrofit.client.Response;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
     public static final String TAG = "MainActivity";
+
+    @InjectView(R.id.toolbar) Toolbar mToolbar;
+
     @Inject
     ApiInterface api;
 
     BaseApp app;
 
     //views - testing out butterknife
-    @InjectView(R.id.name_et)
-    EditText etName;
-    @InjectView(R.id.submit) Button submit;
+    @InjectView(R.id.recycler)
+    RecyclerView courseRecycler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,23 +49,24 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.inject(this);
 
+        setSupportActionBar(mToolbar);
+
         app = (BaseApp) getApplication();
         app.component.inject(this);
+        courseRecycler.setLayoutManager(new LinearLayoutManager(MainActivity.this));
+        courseRecycler.setAdapter(new CoursesAdapter(new ArrayList<Course>(), this));
 
-        submit.setOnClickListener(new View.OnClickListener() {
+        api.listCourses(new Callback<CourseResponse>() {
             @Override
-            public void onClick(View v) {
-                api.checkGender(etName.getText().toString(), new Callback<GenderResponse>() {
-                    @Override
-                    public void success(GenderResponse apiResponse, Response response) {
-                        Log.d(TAG, "success: \n" + apiResponse.toString());
-                    }
+            public void success(CourseResponse courseResponse, Response response) {
+                Log.d(TAG, "success");
+                courseRecycler.setLayoutManager(new LinearLayoutManager(MainActivity.this));
+                courseRecycler.setAdapter(new CoursesAdapter(courseResponse.getCourses(), MainActivity.this));
+            }
 
-                    @Override
-                    public void failure(RetrofitError error) {
-                        Log.w(TAG, "failure: " + error.getMessage(), error.getCause());
-                    }
-                });
+            @Override
+            public void failure(RetrofitError error) {
+                Log.w(TAG, "failure", error.getCause());
             }
         });
     }

@@ -1,5 +1,9 @@
 package nz.co.jonker.dagger2trial.data;
 
+import java.util.List;
+
+import nz.co.jonker.dagger2trial.data.models.Course;
+import nz.co.jonker.dagger2trial.data.models.CourseResponse;
 import retrofit.Callback;
 import retrofit.http.GET;
 import retrofit.http.Query;
@@ -9,6 +13,6 @@ import retrofit.http.Query;
  */
 public interface ApiInterface {
 
-    @GET("/")
-    void checkGender(@Query("name") String name, Callback<GenderResponse> cb); //change to Meeting objects
+    @GET("/courses")
+    void listCourses(Callback<CourseResponse> cb);
 }
