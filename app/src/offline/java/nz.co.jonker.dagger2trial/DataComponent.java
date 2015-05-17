@@ -10,7 +10,7 @@ import nz.co.jonker.dagger2trial.data.OfflineDataModule;
  * Created by datacom_mobile01 on 15/05/15.
  */
 @Singleton
-@Component(modules = {DataModule.class, OfflineDataModule.class})
+@Component(modules = {BaseModule.class, DataModule.class, OfflineDataModule.class})
 public interface DataComponent {
 
     void inject(MainActivity mainActivity);

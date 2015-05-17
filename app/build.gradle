@@ -41,11 +41,13 @@ dependencies {
 
     compile 'com.squareup.okhttp:okhttp:2.3.0'
     compile 'com.squareup.retrofit:retrofit:1.9.0' //retrofit
-    compile 'com.squareup.retrofit:retrofit-mock:1.9.0'
+    offlineCompile 'com.squareup.retrofit:retrofit-mock:1.9.0' //just need this in the offline flavor
     //dagger
     compile 'com.google.dagger:dagger:2.0'
     apt 'com.google.dagger:dagger-compiler:2.0'
     provided 'org.glassfish:javax.annotation:10.0-b28'
+
+    compile 'uk.co.chrisjenx:calligraphy:2.1.0' //custom fonts (roboto medium and regular)
 
     compile 'com.squareup.picasso:picasso:2.5.2'
 

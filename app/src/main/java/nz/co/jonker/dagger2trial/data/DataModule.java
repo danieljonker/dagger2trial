@@ -20,7 +20,6 @@ import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;
-import nz.co.jonker.dagger2trial.BaseApp;
 import retrofit.RestAdapter;
 import retrofit.client.OkClient;
 import retrofit.converter.GsonConverter;
@@ -31,15 +30,6 @@ import retrofit.converter.GsonConverter;
 @Module
 public class DataModule {
     private static final String ENDPOINT = "https://www.udacity.com/public-api/v0";
-    private final BaseApp application;
-
-    public DataModule(BaseApp application) {
-        this.application = application;
-    }
-
-    @Provides @Singleton Context provideApplicationContext() {
-        return this.application;
-    }
 
     @Provides
     @Singleton
