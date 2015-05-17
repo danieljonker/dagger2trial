@@ -24,6 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/image"
         android:textColor="@color/main_colour"
-        android:textSize="16sp"/>
+        android:textSize="16sp"
+        android:transitionName="course_title"/>
 
 </RelativeLayout>

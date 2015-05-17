@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.support.v4.app.ActivityOptionsCompat;
+import android.support.v4.util.Pair;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -71,8 +72,10 @@ public class CoursesAdapter extends RecyclerView.Adapter<CoursesAdapter.ViewHold
                 intent.putExtra("course", course);
                 if (((BaseApp) mContext.getApplicationContext()).mCurrentApiVersion >=
                         Build.VERSION_CODES.LOLLIPOP) {
+                    Pair<View, String> p1 = Pair.create((View) holder.mImage, "course_image");
+                    Pair<View, String> p2 = Pair.create((View) holder.mTitle, "course_title");
                     ActivityOptionsCompat options = ActivityOptionsCompat.
-                            makeSceneTransitionAnimation((Activity) mContext, (View) holder.mImage, "course_image");
+                            makeSceneTransitionAnimation((Activity) mContext, p1, p2);
                     mContext.startActivity(intent, options.toBundle());
                 } else {
                     mContext.startActivity(intent);
