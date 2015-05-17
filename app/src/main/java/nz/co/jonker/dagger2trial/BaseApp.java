@@ -10,7 +10,7 @@ import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 public class BaseApp extends Application {
     DataComponent component;
 
-//    public int mCurrentApiVersion = 0;
+    public int mCurrentApiVersion = 0;
 
     @Override
     public void onCreate() {
@@ -26,6 +26,6 @@ public class BaseApp extends Application {
                         .build()
         );
 
-//        mCurrentApiVersion = android.os.Build.VERSION.SDK_INT;
+        mCurrentApiVersion = android.os.Build.VERSION.SDK_INT;
     }
 }

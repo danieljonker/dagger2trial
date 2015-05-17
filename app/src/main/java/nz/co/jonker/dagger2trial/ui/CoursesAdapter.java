@@ -1,6 +1,10 @@
 package nz.co.jonker.dagger2trial.ui;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
+import android.os.Build;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -15,6 +19,7 @@ import java.util.List;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
+import nz.co.jonker.dagger2trial.BaseApp;
 import nz.co.jonker.dagger2trial.R;
 import nz.co.jonker.dagger2trial.data.models.Course;
 
@@ -35,6 +40,7 @@ public class CoursesAdapter extends RecyclerView.Adapter<CoursesAdapter.ViewHold
     public class ViewHolder extends RecyclerView.ViewHolder {
         @InjectView(R.id.title) TextView mTitle;
         @InjectView(R.id.image) ImageView mImage;
+        @InjectView(R.id.course_list_item) View mListItem;
 
         public ViewHolder(View itemView) {
             super(itemView);
@@ -50,20 +56,30 @@ public class CoursesAdapter extends RecyclerView.Adapter<CoursesAdapter.ViewHold
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, final int position) {
-        Course course = mData.get(position);
+    public void onBindViewHolder(final ViewHolder holder, final int position) {
+        final Course course = mData.get(position);
 
         Picasso.with(mContext).load(course.getImage()).into(holder.mImage);
         holder.mTitle.setText(course.getTitle());
 
-//        holder.mItemView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                //move to detail view here
-//                Log.d(TAG, "click: " + position);
-//                //todo: move to detail view here
-//            }
-//        });
+        holder.mListItem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //move to detail view here
+                Log.d(TAG, "click: " + position);
+                Intent intent = new Intent(mContext, CourseDetailActivity.class);
+                intent.putExtra("course", course);
+                if (((BaseApp) mContext.getApplicationContext()).mCurrentApiVersion >=
+                        Build.VERSION_CODES.LOLLIPOP) {
+                    ActivityOptionsCompat options = ActivityOptionsCompat.
+                            makeSceneTransitionAnimation((Activity) mContext, (View) holder.mImage, "course_image");
+                    mContext.startActivity(intent, options.toBundle());
+                } else {
+                    mContext.startActivity(intent);
+                }
+                //todo: move to detail view here
+            }
+        });
     }
 
     @Override

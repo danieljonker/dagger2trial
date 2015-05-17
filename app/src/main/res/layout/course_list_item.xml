@@ -15,6 +15,7 @@
         android:scaleType="centerCrop"
         android:layout_alignParentLeft="true"
         android:layout_marginRight="8dp"
+        android:transitionName="course_image"
         />
 
     <TextView

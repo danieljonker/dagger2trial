@@ -1,9 +1,12 @@
 package nz.co.jonker.dagger2trial.data.models;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 /**
  * Created by jonker on 15/05/15.
  */
-public class Course {
+public class Course implements Parcelable {
     String title;
     String image;
 
@@ -25,6 +28,35 @@ public class Course {
     public void setTitle(String title) {
         this.title = title;
     }
+
+    protected Course(Parcel in) {
+        title = in.readString();
+        image = in.readString();
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(title);
+        dest.writeString(image);
+    }
+
+    @SuppressWarnings("unused")
+    public static final Parcelable.Creator<Course> CREATOR = new Parcelable.Creator<Course>() {
+        @Override
+        public Course createFromParcel(Parcel in) {
+            return new Course(in);
+        }
+
+        @Override
+        public Course[] newArray(int size) {
+            return new Course[size];
+        }
+    };
 }
 //{
 //        "instructors": [ … ],

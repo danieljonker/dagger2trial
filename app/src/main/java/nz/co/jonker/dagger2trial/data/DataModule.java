@@ -1,7 +1,5 @@
 package nz.co.jonker.dagger2trial.data;
 
-import android.content.Context;
-
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
