@@ -1,7 +1,6 @@
-package nz.co.jonker.dagger2trial;
+package nz.co.jonker.dagger2trial.ui;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -15,24 +14,23 @@ import javax.inject.Inject;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
+import nz.co.jonker.dagger2trial.BaseActivity;
+import nz.co.jonker.dagger2trial.R;
 import nz.co.jonker.dagger2trial.data.ApiInterface;
 import nz.co.jonker.dagger2trial.data.models.Course;
 import nz.co.jonker.dagger2trial.data.models.CourseResponse;
-import nz.co.jonker.dagger2trial.ui.CoursesAdapter;
 import retrofit.Callback;
 import retrofit.RetrofitError;
 import retrofit.client.Response;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
     public static final String TAG = "MainActivity";
 
     @InjectView(R.id.toolbar) Toolbar mToolbar;
 
     @Inject
     ApiInterface api;
-
-    BaseApp app;
 
     //views - testing out butterknife
     @InjectView(R.id.recycler)
@@ -46,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
 
         setSupportActionBar(mToolbar);
 
-        app = (BaseApp) getApplication();
         app.component.inject(this);
         courseRecycler.setLayoutManager(new LinearLayoutManager(MainActivity.this));
         courseRecycler.setAdapter(new CoursesAdapter(new ArrayList<Course>(), this));

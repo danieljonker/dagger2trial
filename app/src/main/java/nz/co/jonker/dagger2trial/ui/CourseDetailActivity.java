@@ -12,10 +12,11 @@ import com.squareup.picasso.Picasso;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
+import nz.co.jonker.dagger2trial.BaseActivity;
 import nz.co.jonker.dagger2trial.R;
 import nz.co.jonker.dagger2trial.data.models.Course;
 
-public class CourseDetailActivity extends AppCompatActivity {
+public class CourseDetailActivity extends BaseActivity {
 
     @InjectView(R.id.toolbar)
     Toolbar mToolbar;
@@ -45,7 +46,6 @@ public class CourseDetailActivity extends AppCompatActivity {
 
         Picasso.with(this).load(mCourse.getImage()).into(mImage);
         mTitle.setText(mCourse.getTitle());
-
     }
 
     @Override

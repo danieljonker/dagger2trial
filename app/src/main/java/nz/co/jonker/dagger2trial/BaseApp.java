@@ -8,7 +8,7 @@ import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
  * Created by datacom_mobile01 on 15/05/15.
  */
 public class BaseApp extends Application {
-    DataComponent component;
+    public DataComponent component;
 
     public int mCurrentApiVersion = 0;
 
